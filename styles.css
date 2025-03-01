@@ -64,7 +64,7 @@ nav {
 }
 
 .nav-item {
-
+    transition: all 0.3s; /* Add a smooth transition effect */
     background-color: #ffffff00;
     height: 100%; /* Make each nav item take the full height */
     display: flex; /* Use flexbox for vertical centering */
