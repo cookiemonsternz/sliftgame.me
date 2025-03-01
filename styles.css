@@ -63,10 +63,8 @@ nav {
 }
 
 .nav-item {
-    padding-left: 1rem;
-    padding-right: 1rem;
+
     background-color: #ffffff00;
-    width: 250px;
     height: 100%; /* Make each nav item take the full height */
     display: flex; /* Use flexbox for vertical centering */
     align-items: center; /* Center content vertically */
@@ -75,9 +73,13 @@ nav {
 
 .nav-item a {
     font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: white;
     display: flex; /* Use flexbox instead of block */
     align-items: center; /* Center content vertically */
+    width: 250px;
+    justify-content: center; /* Center content horizontally */
     height: 100%; /* Make links full height */
     text-decoration: none; /* Optional: removes underline from links */
 }
