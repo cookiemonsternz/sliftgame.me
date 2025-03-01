@@ -11,6 +11,7 @@ body {
     font-family: sans-serif;
     height: 100%; /* Make the body take the full height of the screen */
     transition: all 0.3s; /* Add a smooth transition effect */
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 header {
