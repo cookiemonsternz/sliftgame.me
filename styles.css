@@ -146,6 +146,10 @@ nav {
     padding-left: 0px;
 }
 
+#steam-button {
+    cursor: default;
+}
+
 .download-item {
     font-size: 2rem;
     padding-top: 1rem;
