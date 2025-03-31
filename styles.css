@@ -1,0 +1,207 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #3d3127;
+    color: white;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: sans-serif;
+    height: 100%; /* Make the body take the full height of the screen */
+    transition: all 0.3s; /* Add a smooth transition effect */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+header {
+    z-index: 10;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    height: 80px; /* Set a specific height for your navbar */
+    min-width: 100vw; /* Make the navbar take the full width of the screen */
+}
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Make the list take the full height of the nav */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#nav-logo {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #ffffff00;
+    width: 150px;
+    scale: 0.75;
+    height: 100%; /* Make the logo take the full height */
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    margin-left: auto;
+}
+
+.nav-item {
+    transition: all 0.3s; /* Add a smooth transition effect */
+    background-color: #ffffff00;
+    height: 100%; /* Make each nav item take the full height */
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.nav-item a {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    display: flex; /* Use flexbox instead of block */
+    align-items: center; /* Center content vertically */
+    width: 250px;
+    justify-content: center; /* Center content horizontally */
+    height: 100%; /* Make links full height */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+.nav-item:hover {
+    background-color: #ffffff3f;
+}
+
+#banner-image {
+    position: sticky;
+    background-image: url("static/ss.png");
+    background-position: center;
+    min-width: 100vw;
+    min-height: 101vh;
+    top: 0px; /* Set the top position to the top left corner */
+    left: 0px; /* Set the left position to the top left corner */
+    z-index: -2; /* Send the image to the back */
+}
+
+#title {
+    position: absolute;
+    top: calc(50% - 7rem);
+    left: 50%;
+    font-size: 10rem;
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center;
+    font-family: serif;
+}
+
+#main-content {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#about {
+    margin-left: 5%;
+    font-size: 7rem;
+    margin-top: 0px;
+    padding-top: 5rem;
+}
+
+#about-text {
+    margin-left: 6%;
+    margin-right: 50%;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+#downloads {
+    margin-left: 5%;
+    font-size: 7rem;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}
+
+#download-list {
+    display: flex;
+    list-style-type: none;
+    border-radius: 1rem;
+    margin-left: 5%;
+    width: fit-content;
+    background-color: #61616100;
+    padding-left: 0px;
+}
+
+#steam-button {
+    cursor: default;
+}
+
+.download-item {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.download-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.download-item button {
+    background-color: #ffffff00;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.download-item p {
+    margin: 0;
+}
+
+#gradient-fade {
+    background: rgb(0,0,0, 0);
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0, 0, 0, 0) 100%); 
+    min-height: 300px;
+}
+
+.footer-text {
+    margin-right: 5%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footer-text a {
+    color: rgba(255, 255, 255, 0.751);
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+#footer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.289);
+    color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;;
+}
